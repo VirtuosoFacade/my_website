@@ -9,11 +9,12 @@
         display: none;
     }
 
-    #MsTrailer, #trailerIcon {
+    #MsTrailer,
+    #trailerIcon {
         display: none;
-    } 
+    }
 
-    #mainLogo a{
+    #mainLogo a {
         display: none;
     }
 
