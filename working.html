@@ -4,11 +4,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OnClick</title>
-    <link rel="shortcut icon" href="assects/spider-solid.svg" type="image/x-icon" class="favicon">
+    <title>working on it..</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/mediaQure.css">
+    <link id="favicon" rel="icon" href="frame1.png" type="image/png">
 </head>
+<style>
+
+    .notice {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        height: 100vh;
+        color: #176d6d;
+    }
+
+    #MsTrailer {
+        background:
+            linear-gradient(rgba(255, 0, 0, 1) 0%, rgba(255, 154, 0, 1) 10%, rgba(208, 222, 33, 1) 20%, rgba(79, 220, 74, 1) 30%, rgba(63, 218, 216, 1) 40%, rgba(47, 201, 226, 1) 50%, rgba(28, 127, 238, 1) 60%, rgba(95, 21, 242, 1) 70%, rgba(186, 12, 248, 1) 80%, rgba(251, 7, 217, 1) 90%, rgba(255, 0, 0, 1) 100%) 0 0/100% 200%;
+        animation: a 2s linear infinite;
+    }
+
+    @keyframes a {
+        to {
+            background-position: 0 -200%
+        }
+    }
+</style>
 
 <body>
 
@@ -16,58 +39,18 @@
         <i id="trailerIcon" class="fa-solid fa-link"></i>
     </div>
 
-    <section id="root">
+    <div>
+        <img id="animatedImage" src="frame1.png" alt="pokeball">
+    </div>
 
-        <header>
-            <section id="header">
-                <nav>
-                    <div id="mainLogo" class="interactable" data-type="js">myJavascript <a><i onclick="spin(this)" class="fa-solid fa-fan"></i></a></div>
-
-                    <div id="navLinks">
-                        <a href="#" class="interactable" data-type="link">home</a>
-                        <a href="#" class="interactable" data-type="link">aboutUs</a>
-                        <a href="#" class="interactable" data-type="link">history</a>
-                        <a href="#" class="interactable" data-type="link">work</a>
-                    </div>
-                </nav>
-            </section>
-        </header>
-
-        <main>
-            <section id="main">
-                <h2>Main Panal</h2>
-                <section class="heroSection">
-                </section>
-            </section>
-
-            <section id="sidePanal">
-                <h2>Side Panal</h2>
-            </section>
-        </main>
-
-        <footer>
-            <section id="footer">
-
-                <p>you can click them.</p>
-
-                <div id="foot_links">
-                    <a><i onclick="spin(this)" class="fa-solid fa-fan"></i></a>
-                    <a><i onclick="spin(this)" class="fa-solid fa-spider"></i></a>
-                    <a><i onclick="spin(this)" class="fa-solid fa-hurricane"></i></a>
-                </div>
-
-                <h4 class="interactable" data-type="author">Made by Palkesh</h4>
-
-            </section>
-        </footer>
-
-    </section>
-
-
+    <div class="notice">
+        <h2>working on it. Promise ( ´･･)ﾉ(._.`)</h2>
+        <h3>if you still really <a href="index.html" target="_blank" class="interactable" data-type="link">wanna</a> you
+            can see it.</h3>
+    </div>
 
 </body>
-
+<script src="jsFiles/jsAnimate.js"></script>
 <script src="jsFiles/main.js"></script>
-
 
 </html>
