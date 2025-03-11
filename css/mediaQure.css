@@ -11,6 +11,10 @@
 
     #MsTrailer, #trailerIcon {
         display: none;
+    } 
+
+    #mainLogo a{
+        display: none;
     }
 
 }
