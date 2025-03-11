@@ -10,6 +10,7 @@ let currentFrame = 0;
 
 function animateFavicon() {
     const favicon = document.getElementById("favicon");
+    favicon.href = `${frames[currentFrame]}?v=${Date.now()}`;
     favicon.href = frames[currentFrame];
     currentFrame = (currentFrame + 1) % frames.length; // Loop through frames
     setTimeout(animateFavicon, 75); // Adjust speed (100ms per frame)
