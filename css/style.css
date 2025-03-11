@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Loved+by+the+King&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body:hover>#MsTrailer {
+    opacity: 1;
+}
+
+#MsTrailer {
+    height: 20px;
+    width: 20px;
+    background:
+        linear-gradient(rgba(255, 0, 0, 1) 0%, rgba(255, 154, 0, 1) 10%, rgba(208, 222, 33, 1) 20%, rgba(79, 220, 74, 1) 30%, rgba(63, 218, 216, 1) 40%, rgba(47, 201, 226, 1) 50%, rgba(28, 127, 238, 1) 60%, rgba(95, 21, 242, 1) 70%, rgba(186, 12, 248, 1) 80%, rgba(251, 7, 217, 1) 90%, rgba(255, 0, 0, 1) 100%) 0 0/100% 200%;
+    animation: a 2s linear infinite;
+    border-radius: 10px;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 20000;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 500ms ease;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@keyframes a {
+    to {
+        background-position: 0 -200%
+    }
+}
+
+#MsTrailer:not([data-type=""])>#trailerIcon {
+    opacity: 1;
+}
+
+#trailerIcon {
+    font-size: 6px;
+    line-height: 4px;
+    color: #e2e2e2;
+
+    opacity: 0;
+    transition: opacity 400ms ease;
+}
+
+
+
+#header {
+    padding: 24px 32px;
+    border-bottom: 2px solid #818181;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+#mainLogo {
+    font-size: 30px;
+    font-family: "Loved by the King", serif;
+    font-weight: 800;
+}
+
+a {
+    color: #2b72f7;
+}
+
+a:hover {
+    color: #4519e2;
+}
+
+a:active {
+    color: #e43158;
+}
+
+.fa-spin-pulse {
+    color: #e43158;
+}
+
+#navLinks a {
+    padding-left: 21px;
+    font-family: "Love Ya Like A Sister", serif;
+}
+
+h1,
+h2,
+h3 {
+    font-family: "Loved by the King", serif;
+}
+
+h2 {
+    font-size: 31px;
+}
+
+
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-direction: row;
+    padding: 0 124px;
+    height: 1000px;
+}
+
+main>h1,
+h2,
+h3 {
+    text-decoration: underline;
+}
+
+#main {
+    width: 75%;
+    padding: 24px 32px;
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#sidePanal {
+    width: 25%;
+    padding: 24px 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-direction: column;
+    border-left: 2px solid #818181;
+    border-right: 2px solid #818181;
+    gap: 20px;
+}
+
+.heroSection {
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+#footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+
+    gap: 26px;
+
+    font-family: "Love Ya Like A Sister", serif;
+    font-size: 24px;
+    border-top: 2px solid #818181;
+    padding: 32px 0;
+}
+
+
+
+
+#animatedImage {
+    display: none;
+}
