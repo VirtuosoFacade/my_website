@@ -600,7 +600,7 @@
            rdf:resource="http://creativecommons.org/ns#Attribution" /><cc:permits
            rdf:resource="http://creativecommons.org/ns#DerivativeWorks" /><cc:requires
            rdf:resource="http://creativecommons.org/ns#ShareAlike" /></cc:License></rdf:RDF></metadata><circle
-     style="fill:url(#linearGradient3);stroke-width:4.40315"
+     style="display:none;opacity:0.402746;fill:url(#linearGradient3);stroke-width:4.40315"
      id="path1"
      cx="128"
      cy="128"
