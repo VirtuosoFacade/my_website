@@ -217,7 +217,7 @@ h3 {
     position: absolute;
     top: 45%;
     margin-top: -10px;
-    background-color: rgba(150, 150, 150, .3);
+    background-color: #96969696;
     width: 40px;
     height: 40px;
     z-index: 2;
