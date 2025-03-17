@@ -1,4 +1,16 @@
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 1000px) {
+
+    #MsTrailer,
+    #trailerIcon {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    #main {
+        width: 100%;
+    }
 
     main {
         padding: 0 8vw;
@@ -9,16 +21,11 @@
         display: none;
     }
 
-    #MsTrailer,
-    #trailerIcon {
-        display: none;
-    }
-
     #mainLogo a {
         display: none;
     }
 
-    .slide > img {
+    .slide>img {
         height: 60%;
         margin: 10px;
     }
