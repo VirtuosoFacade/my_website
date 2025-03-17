@@ -226,7 +226,6 @@ h3 {
     border: none;
     outline: none;
     color: white;
-    -webkit-user-select: none;
     display: flex;
     justify-content: center;
     align-items: center;
