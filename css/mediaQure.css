@@ -30,4 +30,28 @@
         margin: 10px;
     }
 
+    .text_div {
+        background-color: #a5477e42;
+        border-radius: 10px;
+    }
+
+    .text_div>h4 {
+        font-size: 20px;
+        color: #311c7e;
+
+    }
+
+    .text_div>p {
+        font-size: 12px;
+    }
+
+    .hide_p {
+        display: none;
+    }
+
+    .hide_not {
+        display: inline;
+    }
+
+
 }

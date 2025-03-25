@@ -109,7 +109,6 @@ main {
     align-items: stretch;
     flex-direction: row;
     padding: 0 124px;
-    height: 1000px;
 }
 
 main>h1,
@@ -144,6 +143,44 @@ h3 {
     justify-content: space-between;
     align-items: stretch;
     flex-direction: column;
+}
+
+.infoText {
+    display: grid;
+    row-gap: 15px;
+}
+
+.text_div {
+    padding: 8px 6px;
+}
+
+.text_div > h4 {
+    font-family: "Loved by the King", serif;
+    font-size: 26px;
+    padding-bottom: 10px;
+}
+
+.text_div > p {
+    font-family: "Love Ya Like A Sister", serif;
+    font-size: 17px;
+}
+
+.imp_txt {
+    background-color: #323253;
+    color: #eca26d;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.imp_txt:hover {
+    color: #ecd5c5;
+}
+
+.hide_p {
+    display: inline;
+}
+
+.hide_not {
+    display: none;
 }
 
 
