@@ -1,5 +1,12 @@
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1300px) {
     
+    .hide_p {
+        display: none;
+    }
+
+    .hide_not {
+        display: inline;
+    }
 }
 
 @media screen and (max-width: 1000px) {
@@ -9,13 +16,6 @@
         display: none;
     }
 
-    .hide_p {
-        display: none;
-    }
-
-    .hide_not {
-        display: inline;
-    }
 }
 
 @media screen and (max-width: 600px) {
